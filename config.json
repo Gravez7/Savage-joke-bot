@@ -1,0 +1,80 @@
+{
+  "bot_personality": {
+    "name": "Lil Guy",
+    "age_appearance": "10-12 years old",
+    "attitude": "Savage, No Filter, Confident",
+    "catchphrase": "Tik Tak Toe, I knew she was a hoe!",
+    "style": "Cartoon, Bold, Sarcastic"
+  },
+  
+  "activities": [
+    "playing_pool",
+    "playing_darts",
+    "chillin_in_lounge",
+    "smokey_bar_vibes",
+    "arcade_games",
+    "card_games",
+    "skateboarding",
+    "gym_workout"
+  ],
+  
+  "upload_schedule": {
+    "enabled": true,
+    "upload_time": "14:00",
+    "timezone": "UTC",
+    "frequency": "daily"
+  },
+  
+  "video_settings": {
+    "resolution": "1080x1920",
+    "aspect_ratio": "9:16",
+    "fps": 30,
+    "duration_seconds": "45-60",
+    "format": "mp4",
+    "codec": "h264"
+  },
+  
+  "tiktok_api": {
+    "api_endpoint": "https://open.tiktokapis.com/v1",
+    "hashtags": [
+      "#FunnyKids",
+      "#ComedyShorts",
+      "#SavageJokes",
+      "#CartoonAnimation",
+      "#NoFilter",
+      "#FYP",
+      "#ForYou",
+      "#Trending"
+    ],
+    "video_description_template": "Yo momma so {{adjective}}... {{emoji}}"
+  },
+  
+  "ai_models": {
+    "joke_generation": "gpt-3.5-turbo",
+    "image_generation": "dall-e-3",
+    "text_to_speech": "google-cloud-texttospeech"
+  },
+  
+  "joke_types": {
+    "yo_momma": {
+      "enabled": true,
+      "weight": 0.4,
+      "style": "classic yo momma jokes"
+    },
+    "savage_roasts": {
+      "enabled": true,
+      "weight": 0.3,
+      "style": "roasting random people/situations"
+    },
+    "sarcasm": {
+      "enabled": true,
+      "weight": 0.2,
+      "style": "sarcastic observations"
+    },
+    "funny_observations": {
+      "enabled": true,
+      "weight": 0.1,
+      "style": "observational humor"
+    }
+  }
+}
