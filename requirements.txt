@@ -1,0 +1,14 @@
+openai>=1.0.0
+anthropic>=0.7.0
+requests>=2.31.0
+pillow>=10.0.0
+opencv-python>=4.8.0
+moviepy>=1.0.3
+python-dotenv>=1.0.0
+tiktok-api>=0.1.0
+schedule>=1.2.0
+pydub>=0.25.1
+ffmpeg-python>=0.2.1
+tweepy>=4.14.0
+google-cloud-texttospeech>=2.14.0
+beautifulsoup4>=4.12.0
